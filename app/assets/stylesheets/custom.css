@@ -4,6 +4,23 @@
     background-color: #9deef2 !important;
 }
 
-h1 {
+.nav-link {
+    color: red !important;
+}
+
+.splash {
+    background-image: asset-url('ab_home_page.jpg') !important;
+}
+
+#logo {
+    float: left;
+    font-size: 1.7 em;
     color: green;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#home-container {
+    margin-top: 25px;
 }
