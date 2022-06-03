@@ -29,7 +29,8 @@ gem "jbuilder"
 
 #bootstrap
 gem 'jsbundling-rails' #needed for bootstrap javascript
-gem 'cssbundling-rails' #instnall bootstrap 5
+gem 'cssbundling-rails' #install bootstrap 5
+# gem 'bootstrap', '~> 5.1.3'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"

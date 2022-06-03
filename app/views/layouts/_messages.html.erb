@@ -1,4 +1,9 @@
 
-  <% flash.each do |name, msg| %>
-    <%= msg %>
-  <% end %>
+<div class="container">
+    <% flash.each do |name, msg| %>
+        <div class="alert alert-success position-relative" role="alert">
+            <%= msg %>
+            <button type="button" class="btn-close position-absolute end-50" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    <% end %>
+</div>

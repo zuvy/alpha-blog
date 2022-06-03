@@ -1,7 +1,7 @@
-@import 'bootstrap/dist/css/bootstrap';
+@import 'node_modules/bootstrap/dist/css/bootstrap';
 
 .navbar {
-    background-color: #9deef2 !important;
+    background-color: #9deef2;
 }
 
 .nav-link {
@@ -9,7 +9,7 @@
 }
 
 .splash {
-    background-image: asset-url('ab_home_page.jpg') !important;
+    background-image: asset-path('alpha-blog/app/assets/ab_home_page.jpg') !important;
 }
 
 #logo {
@@ -23,4 +23,8 @@
 
 #home-container {
     margin-top: 25px;
+}
+#page-content {
+    flex: 1 0 auto;
+    background-color: lightgrey;
 }
